@@ -5,7 +5,6 @@ public class MyIterator extends myList{
     int index;
   
     MyIterator(myList m){
-        this.list = m;
         list = new myList(m);
         index = 0;
     }
